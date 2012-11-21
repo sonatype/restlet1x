@@ -391,21 +391,16 @@ public class HttpServerConverter extends HttpConverter {
             // Send the response to the client
             response.getHttpCall().sendResponse(response);
         } catch (Exception e) {
-            if (response.getHttpCall().isConnectionBroken(e)) {
+            final Exception cause = e.getCause() != null && e.getCause() instanceof Exception ? (Exception) e.getCause() : null;
+            if (response.getHttpCall().isConnectionBroken(e) || (cause != null && response.getHttpCall().isConnectionBroken(cause))) {
                 getLogger()
                         .log(
-                                Level.INFO,
+                                Level.FINE,
                                 "The connection was broken. It was probably closed by the client.",
                                 e);
             } else {
-                if ( getLogger().isLoggable( Level.FINE ) ) {
-                    getLogger().log(Level.FINE,
-                                    "An exception occured writing the response entity:", e);
-                }
-                else {
-                    getLogger().log(Level.WARNING,
-                                    "An exception occured writing the response entity: " + e.getMessage());
-                }
+                getLogger().log(Level.WARNING,
+                                "An exception occured writing the response entity: " + e.getMessage());
                 response.getHttpCall().setStatusCode(
                         Status.SERVER_ERROR_INTERNAL.getCode());
                 response.getHttpCall().setReasonPhrase(
