@@ -1,0 +1,1752 @@
+Testsuite: org.restlet.test.RestletTestSuite
+Tests run: 414, Failures: 0, Errors: 0, Time elapsed: 9.531 sec
+------------- Standard Output ---------------
+[test, status]=[1a, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[1b, OK (200) - The request has succeeded]
+<html><body>
+<h2>Listing of "/"</h2>
+<a href="http://myapplication/test5601713118782218917.txt">test5601713118782218917.txt</a><br>
+<a href="http://myapplication/try">try</a><br>
+</body></html>
+[test, status]=[2a, OK (200) - The request has succeeded]
+[test, status]=[2b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[3a, Method Not Allowed (405) - The method specified in the request is not allowed for the resource identified by the request URI]
+[test, status]=[3b, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[4, OK (200) - The request has succeeded]
+this is test 3b
+[test, status]=[5a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[5b, OK (200) - The request has succeeded]
+[test, status]=[5c, OK (200) - The request has succeeded]
+[test, status]=[6a-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[6a-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7b-1, OK (200) - The request has succeeded]
+[test, status]=[7b-2, OK (200) - The request has succeeded]
+[test, status]=[7b-3, OK (200) - The request has succeeded]
+[test, status]=[7c-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-4, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7d-1, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7d-2, OK (200) - The request has succeeded]
+[test, status]=[7d-3, OK (200) - The request has succeeded]
+[test, status]=[7d-4, OK (200) - The request has succeeded]
+[test, status]=[7d-5, OK (200) - The request has succeeded]
+[test, status]=[7e-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7e-2, OK (200) - The request has succeeded]
+[test, status]=[7e-8, OK (200) - The request has succeeded]
+[test, status]=[8a, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[8b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[9a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[9b, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9c, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9d, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10a, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10c, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10d, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+End of tests*********************
+[test, status]=[1a, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[1b, OK (200) - The request has succeeded]
+<html><body>
+<h2>Listing of "/"</h2>
+<a href="http://myapplication/test6578505479732937171.txt">test6578505479732937171.txt</a><br>
+<a href="http://myapplication/try">try</a><br>
+</body></html>
+[test, status]=[2a, OK (200) - The request has succeeded]
+[test, status]=[2b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[3a, Method Not Allowed (405) - The method specified in the request is not allowed for the resource identified by the request URI]
+[test, status]=[3b, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[4, OK (200) - The request has succeeded]
+this is test 3b
+[test, status]=[5a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[5b, OK (200) - The request has succeeded]
+[test, status]=[5c, OK (200) - The request has succeeded]
+[test, status]=[6a-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[6a-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-1, See Other (303) - The response to the request can be found under a different URI]
+[test, status]=[6c-2, Forbidden (403) - Couldn't delete the non-empty directory]
+[test, status]=[6c-3, Forbidden (403) - Couldn't delete the non-empty directory]
+[test, status]=[7a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7b-1, OK (200) - The request has succeeded]
+[test, status]=[7b-2, OK (200) - The request has succeeded]
+[test, status]=[7b-3, OK (200) - The request has succeeded]
+[test, status]=[7c-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-4, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7d-1, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7d-2, OK (200) - The request has succeeded]
+[test, status]=[7d-3, OK (200) - The request has succeeded]
+[test, status]=[7d-4, OK (200) - The request has succeeded]
+[test, status]=[7d-5, OK (200) - The request has succeeded]
+[test, status]=[7e-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7e-2, OK (200) - The request has succeeded]
+[test, status]=[7e-8, OK (200) - The request has succeeded]
+[test, status]=[8a, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[8b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[9a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[9b, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9c, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9d, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10a, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10c, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10d, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+End of tests*********************
+[test, status]=[1a, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[1b, OK (200) - The request has succeeded]
+<html><body>
+<h2>Listing of "/"</h2>
+<a href="http://myapplication/test137954616007617013.txt">test137954616007617013.txt</a><br>
+<a href="http://myapplication/try">try</a><br>
+</body></html>
+[test, status]=[2a, OK (200) - The request has succeeded]
+[test, status]=[2b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[3a, Method Not Allowed (405) - The method specified in the request is not allowed for the resource identified by the request URI]
+[test, status]=[3b, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[4, OK (200) - The request has succeeded]
+this is test 3b
+[test, status]=[5a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[5b, OK (200) - The request has succeeded]
+[test, status]=[5c, OK (200) - The request has succeeded]
+[test, status]=[6a-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[6a-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7b-1, OK (200) - The request has succeeded]
+[test, status]=[7b-2, OK (200) - The request has succeeded]
+[test, status]=[7b-3, OK (200) - The request has succeeded]
+[test, status]=[7c-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-4, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7d-1, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7d-2, OK (200) - The request has succeeded]
+[test, status]=[7d-3, OK (200) - The request has succeeded]
+[test, status]=[7d-4, OK (200) - The request has succeeded]
+[test, status]=[7d-5, OK (200) - The request has succeeded]
+[test, status]=[7e-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7e-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7e-8, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[8a, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[8b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[9a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[9b, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9c, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9d, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10a, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10c, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10d, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+End of tests*********************
+[test, status]=[1a, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[1b, OK (200) - The request has succeeded]
+<html><body>
+<h2>Listing of "/"</h2>
+<a href="http://myapplication/test4720124590425931396.txt">test4720124590425931396.txt</a><br>
+<a href="http://myapplication/try">try</a><br>
+</body></html>
+[test, status]=[2a, OK (200) - The request has succeeded]
+[test, status]=[2b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[3a, Method Not Allowed (405) - The method specified in the request is not allowed for the resource identified by the request URI]
+[test, status]=[3b, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[4, OK (200) - The request has succeeded]
+this is test 3b
+[test, status]=[5a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[5b, OK (200) - The request has succeeded]
+[test, status]=[5c, OK (200) - The request has succeeded]
+[test, status]=[6a-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[6a-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6b, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[6c-1, See Other (303) - The response to the request can be found under a different URI]
+[test, status]=[6c-2, Forbidden (403) - Couldn't delete the non-empty directory]
+[test, status]=[6c-3, Forbidden (403) - Couldn't delete the non-empty directory]
+[test, status]=[7a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7b-1, OK (200) - The request has succeeded]
+[test, status]=[7b-2, OK (200) - The request has succeeded]
+[test, status]=[7b-3, OK (200) - The request has succeeded]
+[test, status]=[7c-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7c-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7c-4, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7d-1, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[7d-2, OK (200) - The request has succeeded]
+[test, status]=[7d-3, OK (200) - The request has succeeded]
+[test, status]=[7d-4, OK (200) - The request has succeeded]
+[test, status]=[7d-5, OK (200) - The request has succeeded]
+[test, status]=[7e-1, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[7e-2, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[7e-8, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[8a, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[8b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[9a, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+[test, status]=[9b, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9c, OK (200) - The request has succeeded]
+this is test 9a
+[test, status]=[9d, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10a, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10b, No Content (204) - The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]
+[test, status]=[10c, See Other (303) - The metadata are not consistent with the URI]
+[test, status]=[10d, Created (201) - The request has been fulfilled and resulted in a new resource being created]
+End of tests*********************
+[test, status]=[deep access 1, OK (200) - The request has succeeded]
+[test, status]=[deep access 2, OK (200) - The request has succeeded]
+[test, status]=[deep access 3, Not Found (404) - The server has not found anything matching the request URI]
+[test, status]=[deep access 4, Not Found (404) - The server has not found anything matching the request URI]
+Checking wrongUser pw15
+Checking user13 pw15
+Checking user13 thisLongPasswordIsExtremelySecure
+Checking aVeryLongUsernameIsIndeedRequiredForThisTest thisLongPasswordIsExtremelySecure
+Checking aVeryLongUsernameIsIndeedRequiredForThisTest pw15
+agentName=MSIE
+mozillaVersion=4.0
+agentVersion=6.0
+agentOs=Windows NT 5.1
+facultativeData=; SV1
+Resource URI:  http://localhost:9090/?foo=bar
+Base URI:      http://localhost:9090
+Remaining part: /?foo=bar
+Method name:   GET
+Resource URI:  http://localhost:9090/?foo=bar
+Base URI:      http://localhost:9090
+Remaining part: /?foo=bar
+Method name:   DELETE
+Resource URI:  http://localhost:9090/abcd/efgh/ijkl?foo=bar&foo=beer
+Base URI:      http://localhost:9090
+Remaining part: /abcd/efgh/ijkl?foo=bar&foo=beer
+Method name:   GET
+Resource URI:  http://localhost:9090/abcd/efgh/ijkl?foo=bar&foo=beer
+Base URI:      http://localhost:9090
+Remaining part: /abcd/efgh/ijkl?foo=bar&foo=beer
+Method name:   DELETE
+Resource URI:  http://localhost:9090/v1/client/kwse/CnJlNUQV9%252BNNqbUf7Lhs2BYEK2Y%253D/user/johnm/uVGYTDK4kK4zsu96VHGeTCzfwso%253D/
+Base URI:      http://localhost:9090
+Remaining part: /v1/client/kwse/CnJlNUQV9%252BNNqbUf7Lhs2BYEK2Y%253D/user/johnm/uVGYTDK4kK4zsu96VHGeTCzfwso%253D/
+Method name:   GET
+Starting connector... done
+Stopping connector... done
+Restarting connector... done
+<html><head></head><body>
+The virtual presence of <b>Helmut Kohl</b> is: <a href="http://www.restlet.org/persons/Kohl/Helmut">http://www.restlet.org/persons/Kohl/Helmut</a></html>
+<html><head><title>invalid argument</title></head><boy><h1>Sorry</h1><p>Could not convert:
+java.lang.IllegalArgumentException: null</p></body></html>
+Could not convert:
+java.lang.IllegalArgumentException: null
+Could not convert:
+java.lang.IllegalArgumentException: null
+Could not convert:
+java.lang.IllegalArgumentException: null
+expected:
+[]
+[/matchedTest/uriInfo/matchedURIs, /matchedTest]
+got:
+[]
+[/matchedTest/uriInfo/matchedURIs, /matchedTest]
+expected:
+[]
+[/matchedTest/sub/uriInfo/matchedURIs, /matchedTest/sub, /matchedTest]
+got:
+[]
+[/matchedTest/sub/uriInfo/matchedURIs, /matchedTest/sub, /matchedTest]
+null
+null
+null
+null
+null
+The given resource variant is not supported.
+The given resource variant is not supported.
+jaxb: <?xml version="1.0" encoding="UTF-8"?><person><firstname>Angela</firstname><lastname>Merkel</lastname></person>
+jaxbElement: <?xml version="1.0" encoding="UTF-8"?><person><firstname>Angela</firstname><lastname>Merkel</lastname></person>
+ThreadLocalContextTestExcMapper(Thread[main,5,main]) start accMediaType=text/html
+ThreadLocalContextTestExcMapper(Thread[Thread-33,5,main]) start accMediaType=text/plain
+ThreadLocalContextTestExcMapper(Thread[Thread-33,5,main]) middle accMediaType=text/plain
+ThreadLocalContextTestExcMapper(Thread[Thread-33,5,main]) end accMediaType=text/plain
+ThreadLocalContextTestExcMapper(Thread[main,5,main]) middle accMediaType=text/html
+ThreadLocalContextTestExcMapper(Thread[main,5,main]) end accMediaType=text/html
+null
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+2012-11-21 17:50:09.219::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+Nov 21, 2012 5:50:09 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at org.restlet.test.AtomTestCase.testAtom(AtomTestCase.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:518)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1052)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:906)
+2012-11-21 17:50:11.789::INFO:  jetty-6.1.18
+2012-11-21 17:50:11.808::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+2012-11-21 17:50:11.809::INFO:  jetty-6.1.18
+2012-11-21 17:50:11.809::INFO:  Started SelectChannelConnector@0.0.0.0:8183
+Nov 21, 2012 5:50:11 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:11 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:11	127.0.0.1	-	127.0.0.1	8182	GET	/efgh	-	200	12	-	3	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:11 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:11	127.0.0.1	-	127.0.0.1	8182	GET	/abcd	-	404	330	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:11 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:11	127.0.0.1	-	127.0.0.1	8183	GET	/abcd	-	200	12	-	1	http://localhost:8183	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:11 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:11	127.0.0.1	-	127.0.0.1	8183	GET	/efgh	-	404	330	-	0	http://localhost:8183	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:12.135::INFO:  jetty-6.1.18
+2012-11-21 17:50:12.135::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:12	127.0.0.1	-	127.0.0.1	8182	PUT	/	-	200	10	10	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/123456
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/123456
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/test5601713118782218917.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/try/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/try/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests21353516612253/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/123456
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/123456
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/test6578505479732937171.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/try/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/try/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests31353516612392/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/123456.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/123456.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/test137954616007617013.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/try/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/try/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/index
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests41353516612494/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/123456.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/123456.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/test4720124590425931396.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/try/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/try/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.fr
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.fr.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/fichier.txt.en
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new%20%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/a+new+%25file.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/dir/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/dir/does/not/exist/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/file/does/not/exist
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests51353516612581/text/file/does/not/exist.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/test67633039665011811.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/test67633039665011811.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/test67633039665011811.txt
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/DirectoryTestCase/tests61353516612663/dir/subDir/test67633039665011811.txt
+2012-11-21 17:50:12.809::INFO:  jetty-6.1.18
+2012-11-21 17:50:12.810::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:12	127.0.0.1	-	127.0.0.1	8182	GET	/	-	200	0	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.http.HttpServerConverter commit
+WARNING: A response with an unavailable entity was returned. Ignoring the entity for resource "http://localhost:8182/.
+2012-11-21 17:50:12.916::INFO:  jetty-6.1.18
+2012-11-21 17:50:12.916::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:12 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:12	127.0.0.1	-	127.0.0.1	8182	GET	/	-	200	2	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:13.023::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.023::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/	-	200	4	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:13.131::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.131::INFO:  Started SelectChannelConnector@0.0.0.0:1337
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	401	312	-	1	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.apache.commons.httpclient.HttpMethodDirector isAuthenticationNeeded
+INFO: Authentication requested but doAuthentication is disabled
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	200	21	-	0	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	401	312	-	0	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.apache.commons.httpclient.HttpMethodDirector isAuthenticationNeeded
+INFO: Authentication requested but doAuthentication is disabled
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	401	312	-	0	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.apache.commons.httpclient.HttpMethodDirector isAuthenticationNeeded
+INFO: Authentication requested but doAuthentication is disabled
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	200	21	-	0	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	1337	GET	/	-	401	312	-	1	http://localhost:1337	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.apache.commons.httpclient.HttpMethodDirector isAuthenticationNeeded
+INFO: Authentication requested but doAuthentication is disabled
+2012-11-21 17:50:13.309::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.309::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	200	10	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testGet	-	206	10	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:13.440::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.441::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai.txt	-	200	0	10	34	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	200	10	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai.txt	-	200	0	10	18	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	200	11	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai2.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai2.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai2.txt	-	200	0	10	17	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai2.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai2.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai2.txt	-	206	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai.txt	-	200	0	2	17	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	200	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai.txt	-	200	0	3	16	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	200	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai3.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai3.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai3.txt	-	200	0	3	16	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai3.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai3.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai3.txt	-	206	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	PUT	/testPut/essai.txt	-	200	0	2	17	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	200	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/rangeTestCase/essai.txt
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/testPut/essai.txt	-	206	11	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:13.750::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.751::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/test	range=0-500	200	0	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/test	range=-500	200	0	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/test	range=500-	200	0	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/test	range=500-1000	200	0	-	1	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	8182	GET	/test	range=500-1000&range=500-	200	0	-	0	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+2012-11-21 17:50:13.872::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.872::INFO:  Started SelectChannelConnector@0.0.0.0:9090
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+2012-11-21 17:50:13.873::INFO:  jetty-6.1.18
+2012-11-21 17:50:13.873::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:13 PM org.restlet.Redirector handle
+INFO: Redirecting via client connector to: http://localhost:9090/?foo=bar
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	9090	GET	/	foo=bar	200	128	-	0	http://localhost:9090	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	localhost	-1	GET	/	foo=bar	200	128	-	5	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.restlet.Redirector handle
+INFO: Redirecting via client connector to: http://localhost:9090/?foo=bar
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	9090	DELETE	/	foo=bar	200	131	-	0	http://localhost:9090	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	localhost	-1	DELETE	/	foo=bar	200	131	-	4	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.restlet.Redirector handle
+INFO: Redirecting via client connector to: http://localhost:9090/abcd/efgh/ijkl?foo=bar&foo=beer
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	9090	GET	/abcd/efgh/ijkl	foo=bar&foo=beer	200	174	-	0	http://localhost:9090	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	localhost	-1	GET	/abcd/efgh/ijkl	foo=bar&foo=beer	200	174	-	4	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.restlet.Redirector handle
+INFO: Redirecting via client connector to: http://localhost:9090/abcd/efgh/ijkl?foo=bar&foo=beer
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	9090	DELETE	/abcd/efgh/ijkl	foo=bar&foo=beer	200	177	-	0	http://localhost:9090	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	localhost	-1	DELETE	/abcd/efgh/ijkl	foo=bar&foo=beer	200	177	-	4	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM org.restlet.Redirector handle
+INFO: Redirecting via client connector to: http://localhost:9090/v1/client/kwse/CnJlNUQV9%252BNNqbUf7Lhs2BYEK2Y%253D/user/johnm/uVGYTDK4kK4zsu96VHGeTCzfwso%253D/
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	127.0.0.1	9090	GET	/v1/client/kwse/CnJlNUQV9%252BNNqbUf7Lhs2BYEK2Y%253D/user/johnm/uVGYTDK4kK4zsu96VHGeTCzfwso%253D/	-	200	304	-	0	http://localhost:9090	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:13	127.0.0.1	-	localhost	-1	GET	/v1/client/kwse/CnJlNUQV9%252BNNqbUf7Lhs2BYEK2Y%253D/user/johnm/uVGYTDK4kK4zsu96VHGeTCzfwso%253D/	-	200	304	-	4	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:13 PM com.noelios.restlet.ext.httpclient.HttpClientHelper stop
+INFO: Stopping the HTTP client
+Nov 21, 2012 5:50:14 PM com.noelios.restlet.ext.httpclient.HttpClientHelper stop
+INFO: Stopping the HTTP client
+2012-11-21 17:50:14.257::INFO:  jetty-6.1.18
+2012-11-21 17:50:14.258::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+2012-11-21 17:50:14.561::INFO:  jetty-6.1.18
+2012-11-21 17:50:14.562::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:14 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/restlet/test/SpringTestCase.xml]
+2012-11-21 17:50:15.232::INFO:  jetty-6.1.18
+2012-11-21 17:50:15.233::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/restlet/test/SpringTestCase.xml]
+2012-11-21 17:50:15.873::INFO:  jetty-6.1.18
+2012-11-21 17:50:15.873::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.ext.httpclient.HttpClientHelper start
+INFO: Starting the HTTP client
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testFm1.txt.fmt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testFm1.txt.fmt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:15	127.0.0.1	-	127.0.0.1	8182	GET	/freemarker/testFm1	-	200	-	-	3	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.http.HttpClientCall getResponseEntity
+INFO: The length of the message body is unknown. The entity must be handled carefully and consumed entirely in order to surely release the connection.
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testFm2.txt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testFm2.txt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:15	127.0.0.1	-	127.0.0.1	8182	GET	/freemarker/testFm2	-	200	27	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testVl1.txt.vm
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testVl1.txt.vm
+Nov 21, 2012 5:50:15 PM org.apache.velocity.runtime.log.JdkLogChute log
+INFO: FileResourceLoader : adding path '.'
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:15	127.0.0.1	-	127.0.0.1	8182	GET	/velocity/testVl1	-	200	-	-	91	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.http.HttpClientCall getResponseEntity
+INFO: The length of the message body is unknown. The entity must be handled carefully and consumed entirely in order to surely release the connection.
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource getVariants
+INFO: Getting variants for : file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testVl2.txt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.local.DirectoryResource <init>
+INFO: Converted target URI: file:////var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/TemplateFilterTestCase/testVl2.txt
+Nov 21, 2012 5:50:15 PM com.noelios.restlet.LogFilter afterHandle
+INFO: 2012-11-21	17:50:15	127.0.0.1	-	127.0.0.1	8182	GET	/velocity/testVl2	-	200	22	-	2	http://localhost:8182	Noelios-Restlet-Engine/1.1.6-SONATYPE-5348-V5	-
+Nov 21, 2012 5:50:16 PM org.apache.velocity.runtime.log.JdkLogChute log
+INFO: FileResourceLoader : adding path '/var/folders/tv/_7j98bjx2_z9_7g_9gl8t4qh0000gn/T/VelocityTestCase'
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public java.lang.String org.restlet.test.jaxrs.wrappers.WrapperClassesTests$IllegalMethPathRrc.getSubPath() is annotated with an illegal path: @javax.ws.rs.Path(value=subpath;a=b). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public java.lang.String org.restlet.test.jaxrs.wrappers.WrapperClassesTests$IllegalMethPathRrc.get() is annotated with an illegal path: @javax.ws.rs.Path(value=;a=b). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClasses addRootClass
+WARNING: The root resource class org.restlet.test.jaxrs.services.resources.IllegalConstructorResource has no valid constructor
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.JaxRsRestlet addClass
+WARNING: The class class org.restlet.test.jaxrs.services.resources.IllegalConstructorResource is neither a povider nor a root resource class
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.provider.JaxRsProviders addClass
+WARNING: Ignore provider org.restlet.test.jaxrs.services.providers.EntityConstructorProvider, because no valid constructor was found: the provider org.restlet.test.jaxrs.services.providers.EntityConstructorProvider has no valid constructor
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.JaxRsRestlet addClass
+WARNING: The class class org.restlet.test.jaxrs.services.providers.EntityConstructorProvider is neither a povider nor a root resource class
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.provider.JaxRsProviders addClass
+WARNING: Ignore provider org.restlet.test.jaxrs.services.providers.ParamConstructorProvider: Could not instantiate class org.restlet.test.jaxrs.services.providers.ParamConstructorProvider, because All parameters requires one of the following annotations: [interface javax.ws.rs.core.Context, interface javax.ws.rs.HeaderParam, interface javax.ws.rs.MatrixParam, interface javax.ws.rs.QueryParam, interface javax.ws.rs.PathParam, interface javax.ws.rs.CookieParam]
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.JaxRsRestlet addClass
+WARNING: The class class org.restlet.test.jaxrs.services.providers.ParamConstructorProvider is neither a povider nor a root resource class
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.SubResourceLocator createSubResource
+WARNING: The sub resource object is null. That is not allowed
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:16 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.wrappers.ResourceClass initResourceMethodsAndLocators
+WARNING: The method public javax.ws.rs.core.Response org.restlet.test.jaxrs.services.resources.MatrixParamTestService.withSemicolon(java.lang.String,java.lang.String) is annotated with an illegal path: @javax.ws.rs.Path(value=semicolon;mpA=). Ignoring this method. (matrix parameters are not allowed in a @Path)
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.util.ExceptionHandler noMessageBodyWriter
+WARNING: No message body writer found for class class java.lang.Object, genericType class java.lang.Object; response media type should be: text/plain; accepted media types are: [[*/*]]
+Nov 21, 2012 5:50:17 PM org.restlet.ext.jaxrs.internal.util.ExceptionHandler noMessageBodyWriter
+WARNING: No message body writer found for class class java.lang.Object, genericType class java.lang.Object; response media type should be: 4711/0815; accepted media types are: [[*/*]]
+Nov 21, 2012 5:50:18 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/restlet/test/SpringTestCase.xml]
+2012-11-21 17:50:18.063::INFO:  jetty-6.1.18
+2012-11-21 17:50:18.064::INFO:  Started SelectChannelConnector@0.0.0.0:8182
+Nov 21, 2012 5:50:18 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/restlet/test/SpringTestCase.xml]
+------------- ---------------- ---------------
+
+Testcase: testAtom took 2.557 sec
+Testcase: testGetStream took 0.003 sec
+Testcase: testServerAddress took 0 sec
+Testcase: testServerAgent took 0 sec
+Testcase: testStatus took 0 sec
+Testcase: testBaseRef took 0.001 sec
+Testcase: testClientAddress took 0 sec
+Testcase: testClientAddresses took 0 sec
+Testcase: testClientAgent took 0 sec
+Testcase: testMethod took 0 sec
+Testcase: testRedirectionRef took 0 sec
+Testcase: testReferrerRef took 0 sec
+Testcase: testResourceRef took 0 sec
+Testcase: testComponentXMLConfig took 0.398 sec
+Testcase: testEquals took 0 sec
+Testcase: testUnEquals took 0.001 sec
+Testcase: testGet took 0.116 sec
+Testcase: testDirectory took 0.419 sec
+Testcase: testFileClient took 0.002 sec
+Testcase: testCreation took 0 sec
+Testcase: testConstructors took 0 sec
+Testcase: testIllegalStartedState took 0 sec
+Testcase: testIllegalTarget took 0 sec
+Testcase: testAttachDetachInstance took 0 sec
+Testcase: testTemplate took 0.137 sec
+Testcase: test0 took 0.106 sec
+Testcase: test1 took 0.106 sec
+Testcase: test2 took 0.107 sec
+Testcase: testHTTPBasic took 0.131 sec
+Testcase: test took 0 sec
+Testcase: testEquals took 0 sec
+Testcase: testUnEquals took 0.001 sec
+Testcase: testIncludes took 0 sec
+Testcase: testMostSpecificMediaType took 0 sec
+Testcase: testValueOf took 0 sec
+Testcase: testMainProduct took 0.043 sec
+Testcase: testProductTokens took 0 sec
+Testcase: testGet took 0.132 sec
+Testcase: testPut took 0.31 sec
+Testcase: testRanges took 0.12 sec
+Testcase: testRedirect took 0.245 sec
+Testcase: testEquals took 0 sec
+Testcase: testUnEquals took 0 sec
+Testcase: testAdditions took 0 sec
+Testcase: testEmptyRef took 0 sec
+Testcase: testGetLastSegment took 0 sec
+Testcase: testHostName took 0 sec
+Testcase: testMatrix took 0 sec
+Testcase: testParsing took 0.002 sec
+Testcase: testPort took 0 sec
+Testcase: testProtocolConstructors took 0 sec
+Testcase: testScheme took 0 sec
+Testcase: testSchemeSpecificPart took 0 sec
+Testcase: testUserinfo took 0 sec
+Testcase: testValidity took 0 sec
+Testcase: testResolving took 0.004 sec
+Testcase: testTransform took 0.131 sec
+Testcase: testIsModifiable took 0 sec
+Testcase: testIsAvailable took 0 sec
+Testcase: testRestart took 0.507 sec
+Testcase: testRiap took 0.002 sec
+Testcase: testGetLast took 0 sec
+Testcase: testGetNext took 0 sec
+Testcase: testGetRandom took 0 sec
+Testcase: testSpring took 1.068 sec
+Testcase: testSpringServerProperties took 0.032 sec
+Testcase: testEquals took 0 sec
+Testcase: testUnEquals took 0 sec
+Testcase: testCustomDescription took 0 sec
+Testcase: testStatusClasses took 0 sec
+Testcase: testTemplateFilter took 0.225 sec
+Testcase: testVariableNames took 0.001 sec
+Testcase: testWithPercentChars took 0.001 sec
+Testcase: testPathMatching took 0 sec
+Testcase: testTransform took 0.01 sec
+Testcase: testRepresentationTemplate took 0.001 sec
+Testcase: testStandardTemplate took 0.008 sec
+Testcase: testWadl took 0.039 sec
+Testcase: testIae took 0.034 sec
+Testcase: testIoe took 0 sec
+Testcase: testNfe took 0 sec
+Testcase: testParseMatrixParams took 0.002 sec
+Testcase: testParseMatrixParamsFalseFalse took 0 sec
+Testcase: testParseMatrixParamsTrueFalse took 0 sec
+Testcase: testPort took 0.004 sec
+Testcase: testScheme took 0.001 sec
+Testcase: testSchemeSpecificPart took 0.002 sec
+Testcase: testBuildFromArray took 0.001 sec
+Testcase: testBuildFromEncoded took 0.001 sec
+Testcase: testBuildFromMap took 0.001 sec
+Testcase: testBuildWithArgs took 0.001 sec
+Testcase: testBuildWithoutArgs took 0 sec
+Testcase: testClone took 0 sec
+Testcase: testEncode took 0.001 sec
+Testcase: testFragmentEnc took 0 sec
+Testcase: testHostEnc took 0.001 sec
+Testcase: testMatrixParam took 0.001 sec
+Testcase: testPathClass took 0.003 sec
+Testcase: testPathClassString took 0.008 sec
+Testcase: testPathClassStringEnc took 0 sec
+Testcase: testPathMethodArray took 0.003 sec
+Testcase: testPathStringArrayEnc took 0 sec
+Testcase: testQueryEnc took 0 sec
+Testcase: testreplaceMatrix took 0.001 sec
+Testcase: testReplacePath took 0.001 sec
+Testcase: testReplaceQueryParams took 0 sec
+Testcase: testStaticFromPath took 0.001 sec
+Testcase: testTemplateParams took 0.001 sec
+Testcase: testToString took 0 sec
+Testcase: testUri took 0 sec
+Testcase: testUserInfo took 0 sec
+Testcase: testGetAbsolutePath took 0.006 sec
+Testcase: testGetAbsolutePathBuilder took 0 sec
+Testcase: testGetBaseUri took 0 sec
+Testcase: testGetBaseUriBuilder took 0 sec
+Testcase: testGetPath took 0 sec
+Testcase: testGetPathBoolean took 0 sec
+Testcase: testGetPathSegments took 0 sec
+Testcase: testGetPathSegmentsBoolean took 0 sec
+Testcase: testGetQueryParametersDecoded took 0.001 sec
+Testcase: testGetQueryParametersEncoded took 0.001 sec
+Testcase: testGetQueryParametersUnmodifiable took 0 sec
+Testcase: testGetRequestUri took 0.001 sec
+Testcase: testGetRequestUriBuilder took 0 sec
+Testcase: testGetMediaTypeWitoutParams1 took 0 sec
+Testcase: testGetMediaTypeWitoutParams2 took 0 sec
+Testcase: testToLanguageToLocale took 0.001 sec
+Testcase: testToLocale took 0 sec
+Testcase: testUserInfo took 0 sec
+Testcase: testCheckForInvalidUriChars took 0.001 sec
+Testcase: testEncodePathWithoutMatrix took 0 sec
+Testcase: testFragment took 0 sec
+Testcase: testFullMatrixes took 0.001 sec
+Testcase: testFullQueries took 0 sec
+Testcase: testHost took 0 sec
+Testcase: testNameOrValue took 0 sec
+Testcase: testPathSegmentWithMatrix took 0 sec
+Testcase: testSchemeCheck took 0 sec
+Testcase: test2 took 0.002 sec
+Testcase: testMatchM1 took 0 sec
+Testcase: testMatchM2 took 0 sec
+Testcase: testMatchM3 took 0 sec
+Testcase: testMatchM4 took 0 sec
+Testcase: testMatchO1 took 0 sec
+Testcase: testMatchO21 took 0 sec
+Testcase: testRemoveParams1 took 0 sec
+Testcase: testRemoveParams11 took 0 sec
+Testcase: testRemoveParams3 took 0.001 sec
+Testcase: testRemoveParams5 took 0 sec
+Testcase: testRemoveParams7 took 0 sec
+Testcase: testRemoveParams9 took 0 sec
+Testcase: testRemoveParamsEmptyResult1 took 0 sec
+Testcase: testRemoveParamsEmptyResult2 took 0.001 sec
+Testcase: test0 took 0.001 sec
+Testcase: test1 took 0 sec
+Testcase: test2 took 0 sec
+Testcase: testString took 0 sec
+Testcase: test3 took 0 sec
+Testcase: testDoesImplements took 0.001 sec
+Testcase: testGetOfContentType0 took 0 sec
+Testcase: testGetOfContentType1 took 0 sec
+Testcase: testGetOfContentType2 took 0 sec
+Testcase: testGetOfContentType3 took 0 sec
+Testcase: testGetOfContentType4 took 0 sec
+Testcase: testGetPathTemplateWithoutRegExp took 0 sec
+Testcase: testEncodePath took 0.016 sec
+Testcase: testIllegalRrcPath took 0 sec
+Testcase: testIllegalMethodPath took 0.003 sec
+Testcase: testGet took 0.043 sec
+Testcase: testGet2 took 0.005 sec
+Testcase: testDelete took 0.012 sec
+Testcase: testEngine took 0.006 sec
+Testcase: testGetCar took 0.006 sec
+Testcase: testGetHtmlText took 0.005 sec
+Testcase: testGetOffers took 0.006 sec
+Testcase: testGetPlainText took 0.006 sec
+Testcase: testOptions took 0.005 sec
+Testcase: test1 took 0.006 sec
+Testcase: testFields took 0.007 sec
+Testcase: testLastPathSegm took 0.006 sec
+Testcase: testParams took 0.005 sec
+Testcase: test1 took 0.01 sec
+Testcase: test2 took 0.005 sec
+Testcase: testCookieArray took 0.008 sec
+Testcase: testCookieSet took 0.006 sec
+Testcase: testCookieSortedSet took 0.007 sec
+Testcase: testWithDefault took 0.011 sec
+Testcase: testHtmlPlainGif2 took 0.005 sec
+Testcase: testHtmlPlainGif3 took 0.005 sec
+Testcase: testHtmlPlainGif4 took 0.004 sec
+Testcase: testTextStar1 took 0.005 sec
+Testcase: testTextStar2 took 0.005 sec
+Testcase: testTextStar3 took 0.004 sec
+Testcase: testHtmlPlainGif1 took 0.004 sec
+Testcase: testHtml took 0.004 sec
+Testcase: testXml took 0.003 sec
+Testcase: testImage took 0.003 sec
+Testcase: testPlain took 0.003 sec
+Testcase: testFormAndParam took 0.012 sec
+Testcase: testCheckUnmodifiable took 0.007 sec
+Testcase: testFormOnly took 0.008 sec
+Testcase: testParamAndForm took 0.008 sec
+Testcase: testParamOnly took 0.007 sec
+Testcase: testGet took 0.005 sec
+Testcase: testOptions took 0.008 sec
+Testcase: testHead2 took 0.007 sec
+Testcase: testHead2plain took 0.006 sec
+Testcase: testHead1 took 0.006 sec
+Testcase: testWithDefault took 0.01 sec
+Testcase: testAccMediaType took 0.007 sec
+Testcase: testCookies took 0.008 sec
+Testcase: testHeaderParam took 0.007 sec
+Testcase: testHttpHeaders took 0.007 sec
+Testcase: testHttpHeadersCaseInsensitive took 0.006 sec
+Testcase: testLanguage took 0.007 sec
+Testcase: testNullSubResource took 0.007 sec
+Testcase: testNullSubResource took 0.004 sec
+Testcase: testProtected took 0.003 sec
+Testcase: testPackage took 0.003 sec
+Testcase: testPrivate took 0.003 sec
+Testcase: test1 took 0.005 sec
+Testcase: test2a took 0.004 sec
+Testcase: test2b took 0.004 sec
+Testcase: testGet took 0.007 sec
+Testcase: testGetWithIndex took 0.004 sec
+Testcase: testGet took 0.003 sec
+Testcase: testString took 0.006 sec
+Testcase: testGetJsonObject took 0.007 sec
+Testcase: testGetPersonJson took 0.006 sec
+Testcase: testGetPersonXmlA took 0.18 sec
+Testcase: testGetPersonXmlT took 0.008 sec
+Testcase: testPost took 0.005 sec
+Testcase: testCookieParams took 0.007 sec
+Testcase: testHeaderParams took 0.005 sec
+Testcase: testMatrixParams took 0.005 sec
+Testcase: testPathParams took 0.004 sec
+Testcase: testQueryParams took 0.005 sec
+Testcase: testGet took 0.006 sec
+Testcase: testUri took 0.005 sec
+Testcase: testGetSubSameSub took 0.005 sec
+Testcase: testResourceClassNames took 0.006 sec
+Testcase: testSameSubSubUri took 0.006 sec
+Testcase: testUriInfos took 0.005 sec
+Testcase: testUriInfosSub took 0.006 sec
+Testcase: testGetSubSub took 0.006 sec
+Testcase: testGetSub took 0.005 sec
+Testcase: testWithDefault took 0.01 sec
+Testcase: testCheckUnmodifiable took 0.008 sec
+Testcase: testA took 0.01 sec
+Testcase: testB took 0.01 sec
+Testcase: testDecoded took 0.008 sec
+Testcase: testSetterDecoded took 0.008 sec
+Testcase: testSetterEncoded took 0.012 sec
+Testcase: testSub1 took 0.012 sec
+Testcase: testWithoutDefault took 0.011 sec
+Testcase: testWithoutPath took 0.009 sec
+Testcase: testEncoded took 0.008 sec
+Testcase: testOne1 took 0.008 sec
+Testcase: testOne2 took 0.009 sec
+Testcase: testOne3 took 0.007 sec
+Testcase: testOne4 took 0.008 sec
+Testcase: testSemicolon took 0.009 sec
+Testcase: testWithoutPath took 0.005 sec
+Testcase: testEncodedWithDefault took 0.004 sec
+Testcase: test1 took 0.012 sec
+Testcase: test1 took 0.005 sec
+Testcase: test2 took 0.003 sec
+Testcase: testTextPlain took 0.006 sec
+Testcase: testNoMediaType took 0.003 sec
+Testcase: test1 took 0.003 sec
+Testcase: testGet2 took 0.007 sec
+Testcase: testGetRegExpPathZahl took 0.006 sec
+Testcase: testGetRegExpPathZahlMinus took 0.005 sec
+Testcase: testGet1 took 0.004 sec
+Testcase: testGet4 took 0.004 sec
+Testcase: testGetRegExpPathEinBuchstabe took 0.005 sec
+Testcase: testGetRegExpPathLangerString took 0.005 sec
+Testcase: testEncoded took 0.007 sec
+Testcase: testDecoded1 took 0.005 sec
+Testcase: testDecoded2 took 0.006 sec
+Testcase: testGetBigDecimal took 0.007 sec
+Testcase: testGetInt took 0.007 sec
+Testcase: testGetInteger took 0.007 sec
+Testcase: testGetMediaType took 0.006 sec
+Testcase: testGetMn took 0.007 sec
+Testcase: testGetWithSlashInUriParam took 0.006 sec
+Testcase: testX took 0.006 sec
+Testcase: testX2 took 0.006 sec
+Testcase: testGetList took 0.014 sec
+Testcase: testCreate took 0.016 sec
+Testcase: test1 took 0.008 sec
+Testcase: test2 took 0.004 sec
+Testcase: test3 took 0.006 sec
+Testcase: test4 took 0.004 sec
+Testcase: testJaxbGet took 0.022 sec
+Testcase: testJaxbPost took 0.02 sec
+Testcase: testMultivaluedMapGet took 0.012 sec
+Testcase: testMultivaluedMapPost took 0.008 sec
+Testcase: testReaderGet took 0.007 sec
+Testcase: testReaderPost took 0.006 sec
+Testcase: testStringBuilderGet took 0.007 sec
+Testcase: testStringGet took 0.009 sec
+Testcase: testStringPost took 0.006 sec
+Testcase: testSubStringGet took 0.006 sec
+Testcase: testXmlTransformGet took 0.006 sec
+Testcase: testXmlTransformPost took 0.006 sec
+Testcase: testByteArrayPost took 0.006 sec
+Testcase: testCharSequenceGet took 0.005 sec
+Testcase: testCharSequencePost took 0.006 sec
+Testcase: testFileGet took 0.005 sec
+Testcase: testFilePost took 0.006 sec
+Testcase: testFormGet took 0.005 sec
+Testcase: testFormPost took 0.005 sec
+Testcase: testInputStreamGet took 0.005 sec
+Testcase: testInputStreamPost took 0.005 sec
+Testcase: testJaxbElementGet took 0.013 sec
+Testcase: testJaxbElementPost took 0.005 sec
+Testcase: testJaxbElementPostRootElement took 0.004 sec
+Testcase: testBufferedReaderGet took 0.005 sec
+Testcase: testBufferedReaderPost took 0.005 sec
+Testcase: testByteArrayGet took 0.005 sec
+Testcase: testCheckUnmodifiable took 0.005 sec
+Testcase: testA took 0.005 sec
+Testcase: testDecoded took 0.004 sec
+Testcase: testEncodedA took 0.004 sec
+Testcase: testOne1 took 0.004 sec
+Testcase: testOne2 took 0.003 sec
+Testcase: testOne3 took 0.005 sec
+Testcase: testOne4 took 0.004 sec
+Testcase: testFieldDecoded took 0.004 sec
+Testcase: testFieldEncoded took 0.004 sec
+Testcase: testInt took 0.007 sec
+Testcase: testInteger took 0.008 sec
+Testcase: testMult1 took 0.009 sec
+Testcase: testQpDecoded took 0.006 sec
+Testcase: testQpEncoded took 0.005 sec
+Testcase: test0 took 0.003 sec
+Testcase: test2 took 0.002 sec
+Testcase: test3 took 0.003 sec
+Testcase: test2b took 0.002 sec
+Testcase: test1b took 0.002 sec
+Testcase: test1a took 0.002 sec
+Testcase: testJaxbPost took 0.006 sec
+Testcase: testStringGet took 0.003 sec
+Testcase: testDecodePost took 0.003 sec
+Testcase: testReprGet took 0.002 sec
+Testcase: testReprPost took 0.005 sec
+Testcase: testOptions took 0.004 sec
+Testcase: testDateAndEntityTag4Get took 0.003 sec
+Testcase: testDateAndEntityTag4Put took 0.002 sec
+Testcase: testGetDateNotModified took 0.003 sec
+Testcase: testGetEntityTagMatch took 0.003 sec
+Testcase: testGetEntityTagNoneMatch took 0.003 sec
+Testcase: testGetModifiedSince took 0.005 sec
+Testcase: testGetUnmodifiedSince took 0.004 sec
+Testcase: testPutModifiedSince took 0.003 sec
+Testcase: testPutUnmodifiedSince took 0.003 sec
+Testcase: testSelectVariant took 0.004 sec
+Testcase: testDateAndEntityTag1Get took 0.002 sec
+Testcase: testDateAndEntityTag1Put took 0.002 sec
+Testcase: testDateAndEntityTag2Get took 0.003 sec
+Testcase: testDateAndEntityTag2Put took 0.003 sec
+Testcase: testDateAndEntityTag3Get took 0.002 sec
+Testcase: testDateAndEntityTag3Put took 0.002 sec
+Testcase: test1 took 0.005 sec
+Testcase: test2 took 0.002 sec
+Testcase: testDelete took 0.003 sec
+Testcase: test2 took 0.002 sec
+Testcase: test3 took 0.003 sec
+Testcase: test4 took 0.002 sec
+Testcase: testUserPrincipalNotAuth took 0.002 sec
+Testcase: test5 took 0.002 sec
+Testcase: testAllowAll took 0.003 sec
+Testcase: testAuthenticationSchemeBasic took 0.002 sec
+Testcase: testForbidAll took 0.002 sec
+Testcase: testNoRoles took 0.006 sec
+Testcase: testSecure took 0.002 sec
+Testcase: testUserPrincipalAuth took 0.003 sec
+Testcase: testGetHtmlText took 0.002 sec
+Testcase: testGetPlainText took 0.003 sec
+Testcase: testGetNull took 0.002 sec
+Testcase: testGetNullWithMediaType took 0.002 sec
+Testcase: testGetTextAll took 0.003 sec
+Testcase: testGetHtmlText took 0.002 sec
+Testcase: testGetPlainText took 0.002 sec
+Testcase: testOptions took 0.002 sec
+Testcase: testGetTextAll took 0.003 sec
+Testcase: testGetTextMultiple1 took 0.003 sec
+Testcase: testGetTextMultiple2 took 0.002 sec
+Testcase: testHead took 0.003 sec
+Testcase: testTemplParamsDecoded took 0.003 sec
+Testcase: testTemplParamsEncoded took 0.004 sec
+Testcase: testUseAllTests took 0.002 sec
+Testcase: test1 took 0.208 sec
+Testcase: testIoe took 0.004 sec
+Testcase: testWebAppExc took 0.002 sec
+Testcase: testSqlExc took 0.003 sec
+Testcase: testWebAppExcNullStatus took 0.002 sec
+Testcase: testPost took 0.003 sec
+Testcase: testAbsoluteGet took 0.003 sec
+Testcase: testAbsoluteHead took 0.003 sec
+Testcase: testAbsolutePost took 0.003 sec
+Testcase: testBaseGet took 0.002 sec
+Testcase: testBaseHead took 0.003 sec
+Testcase: testBasePost took 0.002 sec
+Testcase: testCar took 0.005 sec
+Testcase: testSimpleTrain took 0.004 sec
+Testcase: testSpring took 0.639 sec
+Testcase: testSpringServerProperties took 0.024 sec
+Testcase: testExceptionWhenBeanIsWrongType took 0.002 sec
+Testcase: testReturnsCorrectBeanWhenExists took 0 sec
+Testcase: testRoutesCreatedForUrlAliases took 0.002 sec
+Testcase: testRoutesPointToFindersForBeans took 0.001 sec
+Testcase: testRoutingSkipsResourcesWithoutAppropriateAliases took 0 sec

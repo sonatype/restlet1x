@@ -1,0 +1,9 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>edu.purdue.cs.bloat</groupId>
+   <artifactId>edu.purdue.cs.bloat</artifactId>
+   <version>1.0</version>
+
+   <name>The Bytecode-Level Optimizer and Analysis Tool</name>
+   <description>The Bytecode-Level Optimizer and Analysis Tool.</description>
+</project>
