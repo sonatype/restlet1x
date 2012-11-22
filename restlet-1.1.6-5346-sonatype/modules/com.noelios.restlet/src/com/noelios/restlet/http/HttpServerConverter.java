@@ -37,6 +37,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.Callable;
 import java.util.logging.Level;
 
 import org.restlet.Context;
@@ -426,16 +427,65 @@ public class HttpServerConverter extends HttpConverter {
         }
     }
 
-    private void logConnectionBroken(final Exception e, final HttpResponse response) {
+    private void logConnectionBroken( final Exception e, final HttpResponse response )
+    {
         final Request request = response.getRequest();
-        final String userAgentString = request.getClientInfo().getAgent();
-        final String uri = request.getOriginalRef().toString();
-        final String remoteIpAddress = findIP( request );
+        final String userAgentString = nvl( new Callable<String>()
+        {
+            @Override
+            public String call()
+                throws Exception
+            {
+                return request.getClientInfo().getAgent();
+            }
+        } );
+        final String uri = nvl( new Callable<String>()
+        {
+            @Override
+            public String call()
+                throws Exception
+            {
+                return request.getOriginalRef().toString();
+            }
+        } );
+        final String remoteIpAddress = nvl( new Callable<String>()
+        {
+            @Override
+            public String call()
+                throws Exception
+            {
+                return findIP( request );
+            }
+        } );
         getLogger().log( Level.INFO,
                          "Connection broken, is probably closed by the client. UA=\"" + userAgentString + "\", URI=\""
-                             + uri + "\", IP=" + remoteIpAddress + ": " + e.getClass().getSimpleName() + ": " + e.getMessage() );
+                             + uri + "\", IP=" + remoteIpAddress + ": " + e.getClass().getSimpleName() + ": "
+                             + e.getMessage() );
     }
 
+    private String nvl( final Callable<String> callable )
+    {
+        String result = "n/a";
+        if ( callable != null )
+        {
+            try
+            {
+                result = callable.call();
+            }
+            catch ( NullPointerException e )
+            {
+                // kinda expected
+            }
+            catch ( Exception e )
+            {
+                // ahem
+                getLogger().log( Level.WARNING,
+                                 "Connection broken, but problem occurred during log message preparation.",
+                                 e );
+            }
+        }
+        return result;
+    }
     /**
      * Converts a low-level HTTP call into a high-level uniform request.
      * 
