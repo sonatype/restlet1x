@@ -480,7 +480,7 @@ public class HttpServerConverter extends HttpConverter {
             {
                 // ahem
                 getLogger().log( Level.WARNING,
-                                 "Connection broken, but problem occurred during log message preparation.",
+                                 "Client closed connection early, but problem occurred during log message preparation.",
                                  e );
             }
         }
