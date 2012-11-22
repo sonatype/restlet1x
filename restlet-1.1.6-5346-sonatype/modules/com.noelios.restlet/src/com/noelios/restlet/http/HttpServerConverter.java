@@ -458,8 +458,8 @@ public class HttpServerConverter extends HttpConverter {
             }
         } );
         getLogger().log( Level.INFO,
-                         "Connection broken, is probably closed by the client. UA=\"" + userAgentString + "\", URI=\""
-                             + uri + "\", IP=" + remoteIpAddress + ": " + e.getClass().getSimpleName() + ": "
+                         "Client closed connection early (UA=\"" + userAgentString + "\", URI=\""
+                             + uri + "\", IP=" + remoteIpAddress + "): " + e.getClass().getSimpleName() + ": "
                              + e.getMessage() );
     }
 
