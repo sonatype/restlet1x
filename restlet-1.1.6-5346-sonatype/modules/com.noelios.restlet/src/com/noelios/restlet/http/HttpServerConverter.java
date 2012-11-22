@@ -407,7 +407,7 @@ public class HttpServerConverter extends HttpConverter {
                 }
             } else {
                 getLogger().log(Level.WARNING,
-                                "An exception occured writing the response entity: " + e.getMessage());
+                                "An exception occured writing the response entity: " + e.getMessage(), e);
                 response.getHttpCall().setStatusCode(
                         Status.SERVER_ERROR_INTERNAL.getCode());
                 response.getHttpCall().setReasonPhrase(
