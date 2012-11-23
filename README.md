@@ -37,10 +37,10 @@ List of Artifacts (artifactId's) you need to deploy:
 * com.noelios.restlet.ext.jetty_6.1
 * com.noelios.restlet.ext.servlet_2.5
 
-Finally, after "deploy", tag the stuff you did:
+Finally, after "deploy", tag the stuff you did (use unique tags, this below is just an example!):
 
 ```
-[cstamas@zaphod build (master)]$ git tag -a -m "V5 release of Restlet 1.1.x patch"
+[cstamas@zaphod build (master)]$ git tag -a -m "V5 release of Restlet 1.1.x patch" V5
 [cstamas@zaphod build (master)]$ git push --tags"
 ```
 
