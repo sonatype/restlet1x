@@ -138,45 +138,46 @@ public class HttpConverter {
                                     "Addition of the standard header \""
                                             + param.getName()
                                             + "\" is not allowed. Please use the Restlet API instead.");
-                } else if (param.getName().equalsIgnoreCase(
-                        HttpConstants.HEADER_AGE)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_CACHE_CONTROL)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_EXPECT)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_FROM)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_IF_RANGE)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_MAX_FORWARDS)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_PRAGMA)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_PROXY_AUTHENTICATE)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_PROXY_AUTHORIZATION)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_RETRY_AFTER)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_TRAILER)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_TRANSFER_ENCODING)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_TRANSFER_EXTENSION)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_UPGRADE)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_VIA)
-                        || param.getName().equalsIgnoreCase(
-                                HttpConstants.HEADER_WARNING)) {
-                    // Standard headers can't shouldn't be overriden
-                    getLogger()
-                            .info(
-                                    "Addition of the standard header \""
-                                            + param.getName()
-                                            + "\" is discouraged. Future versions of the Restlet API will directly support it.");
-                    existingHeaders.add(param);
+// DO NOT NAG if you don't have support for this!
+//                } else if (param.getName().equalsIgnoreCase(
+//                        HttpConstants.HEADER_AGE)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_CACHE_CONTROL)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_EXPECT)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_FROM)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_IF_RANGE)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_MAX_FORWARDS)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_PRAGMA)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_PROXY_AUTHENTICATE)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_PROXY_AUTHORIZATION)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_RETRY_AFTER)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_TRAILER)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_TRANSFER_ENCODING)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_TRANSFER_EXTENSION)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_UPGRADE)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_VIA)
+//                        || param.getName().equalsIgnoreCase(
+//                                HttpConstants.HEADER_WARNING)) {
+//                    // Standard headers can't shouldn't be overriden
+//                    getLogger()
+//                            .info(
+//                                    "Addition of the standard header \""
+//                                            + param.getName()
+//                                            + "\" is discouraged. Future versions of the Restlet API will directly support it.");
+//                    existingHeaders.add(param);
                 } else {
                     existingHeaders.add(param);
                 }
