@@ -571,7 +571,7 @@ public class HttpServerConverter extends HttpConverter {
                 InetAddress ipAdd;
                 try
                 {
-                    ipAdd = InetAddress.getByAddress( ip.getBytes() );
+                    ipAdd = InetAddress.getByName( ip );
                 }
                 catch ( UnknownHostException e )
                 {
