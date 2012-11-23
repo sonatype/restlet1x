@@ -457,10 +457,28 @@ public class HttpServerConverter extends HttpConverter {
                 return findIP( request );
             }
         } );
+        final String processingTime = calculateProcessingTime( request );
         getLogger().log( Level.INFO,
-                         "Client closed connection early (UA=\"" + userAgentString + "\", URI=\""
+                         "Client closed connection early (processingTime="+processingTime+"ms, UA=\"" + userAgentString + "\", URI=\""
                              + uri + "\", IP=" + remoteIpAddress + "): " + e.getClass().getSimpleName() + ": "
                              + e.getMessage() );
+    }
+
+    private String calculateProcessingTime( final Request request )
+    {
+        // this attribute is put in by LogFilter, so check for it's presence 1st
+        if ( request.getAttributes().containsKey( "org.restlet.startTime" ) )
+        {
+            final long startTime = (Long) request.getAttributes().get(
+                "org.restlet.startTime" );
+            final long duration = System.currentTimeMillis() - startTime;
+            return Long.toString( duration );
+        }
+        else
+        {
+            // LogFilter is not installed
+            return "n/a";
+        }
     }
 
     private String nvl( final Callable<String> callable )

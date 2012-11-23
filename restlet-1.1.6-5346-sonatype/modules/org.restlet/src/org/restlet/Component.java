@@ -222,7 +222,10 @@ public class Component extends Restlet {
                     }
 
                 };
-                this.logService = new LogService(true);
+                // shutting down LogService by default
+                // still, enabling it is possible by having System property set as
+                // org.restlet.service.LogService=true
+                this.logService = new LogService(Boolean.getBoolean(LogService.class.getName().toString()));
                 this.statusService = new StatusService(true);
                 this.clients.setContext(getContext());
                 this.servers.setContext(getContext());
