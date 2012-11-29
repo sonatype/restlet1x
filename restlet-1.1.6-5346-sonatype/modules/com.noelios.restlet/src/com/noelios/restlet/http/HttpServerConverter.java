@@ -432,7 +432,6 @@ public class HttpServerConverter extends HttpConverter {
         final Request request = response.getRequest();
         final String userAgentString = nvl( new Callable<String>()
         {
-            @Override
             public String call()
                 throws Exception
             {
@@ -441,7 +440,6 @@ public class HttpServerConverter extends HttpConverter {
         } );
         final String uri = nvl( new Callable<String>()
         {
-            @Override
             public String call()
                 throws Exception
             {
@@ -450,14 +448,13 @@ public class HttpServerConverter extends HttpConverter {
         } );
         final String remoteIpAddress = nvl( new Callable<String>()
         {
-            @Override
             public String call()
                 throws Exception
             {
                 return findIP( request );
             }
         } );
-        getLogger().log( Level.INFO,
+        getLogger().log( Level.FINE,
                          "Client closed connection early (UA=\"" + userAgentString + "\", URI=\""
                              + uri + "\", IP=" + remoteIpAddress + "): " + e.getClass().getSimpleName() + ": "
                              + e.getMessage() );

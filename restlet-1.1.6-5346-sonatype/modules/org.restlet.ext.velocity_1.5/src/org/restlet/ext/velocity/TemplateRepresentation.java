@@ -398,7 +398,7 @@ public class TemplateRepresentation extends OutputRepresentation {
         // https://github.com/sonatype/restlet1x/blob/V7/restlet-1.1.6-5346-sonatype/modules/org.restlet.ext.velocity_1.5/src/org/restlet/ext/velocity/TemplateRepresentation.java#L381
         try
         {
-            Writer tmplWriter = null;
+            final Writer tmplWriter;
 
             // Load the template
             if (getCharacterSet() != null) {
