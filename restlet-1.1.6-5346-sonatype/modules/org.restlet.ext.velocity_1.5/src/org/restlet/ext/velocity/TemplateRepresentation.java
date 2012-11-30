@@ -380,15 +380,26 @@ public class TemplateRepresentation extends OutputRepresentation {
 
     /**
      * Writes the datum as a stream of bytes.
-     * 
+     *
      * @param outputStream
      *            The stream to use when writing.
      */
     @Override
     public void write(OutputStream outputStream) throws IOException {
-        Writer tmplWriter = null;
+        // cstamas
+        // wrt NEXUS-3442
+        // IOEx propagated as is, while Velocity (and other) exceptions wrapped into IOEx as originally happened
+        // This means, that if outputStream throws IOEx: Broken Pipe (or some other IOEx with cause like that)
+        // code in HttpServerConverter will properly kick in and handle this as "client dropped connection".
+        // In any other case, a log with full stack trace will be logged
+        // Original code is here:
+        // https://github.com/restlet/restlet-framework-java/blob/1.1/modules/org.restlet.ext.velocity_1.5/src/org/restlet/ext/velocity/TemplateRepresentation.java#L381
+        // Sonatype patched V7 code is here (catch block of try):
+        // https://github.com/sonatype/restlet1x/blob/V7/restlet-1.1.6-5346-sonatype/modules/org.restlet.ext.velocity_1.5/src/org/restlet/ext/velocity/TemplateRepresentation.java#L381
+        try
+        {
+            final Writer tmplWriter;
 
-        try {
             // Load the template
             if (getCharacterSet() != null) {
                 tmplWriter = new BufferedWriter(new OutputStreamWriter(
@@ -406,22 +417,17 @@ public class TemplateRepresentation extends OutputRepresentation {
             // Process the template
             getTemplate().merge(getContext(), tmplWriter);
             tmplWriter.flush();
-        } catch (Exception e) {
-            final Context context = Context.getCurrent();
-
-            if (context != null) {
-                if (context.getLogger().isLoggable( Level.FINE )) {
-                    context.getLogger().log(Level.FINE,
-                                            "Unable to process the template", e);    
-                }
-                else {
-                    context.getLogger().log(Level.WARNING,
-                                            "Unable to process the template: " + e.getMessage());
-                }
-            }
-
-            throw new IOException("Template processing error. "
-                    + e.getMessage());
+        }
+        catch ( IOException e )
+        {
+            // NEXUS-3442
+            // IOEx should be propagated as is
+            throw e;
+        }
+        catch ( Exception e )
+        {
+            // All other (Velocity exceptions are RuntimeExcptions!) to be wrapped, but preserve cause too
+            throw new IOException( "Template processing error: " + e.getMessage(), e );
         }
     }
 

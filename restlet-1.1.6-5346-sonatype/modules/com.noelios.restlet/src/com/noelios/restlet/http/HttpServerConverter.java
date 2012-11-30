@@ -28,16 +28,10 @@
 package com.noelios.restlet.http;
 
 import java.io.IOException;
-import java.net.Inet4Address;
-import java.net.Inet6Address;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.security.cert.Certificate;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.Callable;
 import java.util.logging.Level;
 
 import org.restlet.Context;
@@ -46,16 +40,13 @@ import org.restlet.data.CookieSetting;
 import org.restlet.data.Digest;
 import org.restlet.data.Dimension;
 import org.restlet.data.Encoding;
-import org.restlet.data.Form;
 import org.restlet.data.Method;
 import org.restlet.data.Parameter;
-import org.restlet.data.Request;
 import org.restlet.data.Response;
 import org.restlet.data.Status;
 import org.restlet.resource.Representation;
 import org.restlet.util.DateUtils;
 import org.restlet.util.Series;
-
 import com.noelios.restlet.authentication.AuthenticationUtils;
 import com.noelios.restlet.util.Base64;
 import com.noelios.restlet.util.RangeUtils;
@@ -399,14 +390,7 @@ public class HttpServerConverter extends HttpConverter {
             // Send the response to the client
             response.getHttpCall().sendResponse(response);
         } catch (Exception e) {
-            final Exception cause = e.getCause() != null && e.getCause() instanceof Exception ? (Exception) e.getCause() : null;
-            if (response.getHttpCall().isConnectionBroken(e) || (cause != null && response.getHttpCall().isConnectionBroken(cause))) {
-                if (response.getHttpCall().isConnectionBroken(e)) {
-                    logConnectionBroken( e, response );
-                } else {
-                    logConnectionBroken( cause, response );
-                }
-            } else {
+            if ( !isConnectionBroken( response, e )) {
                 getLogger().log(Level.WARNING,
                                 "An exception occured writing the response entity: " + e.getMessage(), e);
                 response.getHttpCall().setStatusCode(
@@ -427,65 +411,37 @@ public class HttpServerConverter extends HttpConverter {
         }
     }
 
-    private void logConnectionBroken( final Exception e, final HttpResponse response )
+    /**
+     * Checks recursively all the causes is any of them "IOEx: Broken Pipe".
+     *
+     * @param response
+     * @param e
+     * @return {@code true} if passed in exception or it's cause (at any level) is an IOEx: broken pipe,
+     *         {@code false} otherwise.
+     */
+    private boolean isConnectionBroken( final HttpResponse response, final Exception e )
     {
-        final Request request = response.getRequest();
-        final String userAgentString = nvl( new Callable<String>()
+        if ( e != null )
         {
-            @Override
-            public String call()
-                throws Exception
+            if ( response.getHttpCall().isConnectionBroken( e ) )
             {
-                return request.getClientInfo().getAgent();
+                return true;
             }
-        } );
-        final String uri = nvl( new Callable<String>()
-        {
-            @Override
-            public String call()
-                throws Exception
+            else if ( e.getCause() instanceof Exception )
             {
-                return request.getOriginalRef().toString();
+                return isConnectionBroken( response, (Exception) e.getCause() );
             }
-        } );
-        final String remoteIpAddress = nvl( new Callable<String>()
-        {
-            @Override
-            public String call()
-                throws Exception
+            else
             {
-                return findIP( request );
-            }
-        } );
-        getLogger().log( Level.INFO,
-                         "Client closed connection early (UA=\"" + userAgentString + "\", URI=\""
-                             + uri + "\", IP=" + remoteIpAddress + "): " + e.getClass().getSimpleName() + ": "
-                             + e.getMessage() );
-    }
-
-    private String nvl( final Callable<String> callable )
-    {
-        String result = "n/a";
-        if ( callable != null )
-        {
-            try
-            {
-                result = callable.call();
-            }
-            catch ( NullPointerException e )
-            {
-                // kinda expected
-            }
-            catch ( Exception e )
-            {
-                // ahem
-                getLogger().log( Level.WARNING,
-                                 "Client closed connection early, but problem occurred during log message preparation.",
-                                 e );
+                return false;
             }
         }
-        return result;
+        else
+        {
+            return false;
+        }
     }
+
     /**
      * Converts a low-level HTTP call into a high-level uniform request.
      * 
@@ -527,77 +483,5 @@ public class HttpServerConverter extends HttpConverter {
         }
 
         return result;
-    }
-
-    // ==
-    // Below is a copy-paste from class org.sonatype.nexus.rest.RemoteIPFinder
-    // To make us able log real IPs even if behind forward proxy like mod_proxy/nginx is
-
-    protected static final String FORWARD_HEADER = "X-Forwarded-For";
-
-    public static String findIP( Request request )
-    {
-        final Form form = (Form) request.getAttributes().get( "org.restlet.http.headers" );
-        String forwardedIP = getFirstForwardedIp( form.getFirstValue( FORWARD_HEADER ) );
-        if ( forwardedIP != null )
-        {
-            return forwardedIP;
-        }
-        final List<String> ipAddresses = request.getClientInfo().getAddresses();
-        return resolveIp( ipAddresses );
-    }
-
-    protected static String getFirstForwardedIp( String forwardedFor )
-    {
-        if ( forwardedFor != null && forwardedFor.trim().length() > 0 )
-        {
-            final String[] forwardedIps = forwardedFor.split( "," );
-            return resolveIp( Arrays.asList( forwardedIps ) );
-        }
-        return null;
-    }
-
-    private static String resolveIp( List<String> ipAddresses )
-    {
-        String ip0 = null;
-        String ip4 = null;
-        String ip6 = null;
-
-        if ( ipAddresses.size() > 0 )
-        {
-            ip0 = ipAddresses.get( 0 );
-            for ( String ip : ipAddresses )
-            {
-                InetAddress ipAdd;
-                try
-                {
-                    ipAdd = InetAddress.getByName( ip );
-                }
-                catch ( UnknownHostException e )
-                {
-                    continue;
-                }
-                if ( ipAdd instanceof Inet4Address )
-                {
-                    ip4 = ip;
-                    continue;
-                }
-                if ( ipAdd instanceof Inet6Address )
-                {
-                    ip6 = ip;
-                    continue;
-                }
-            }
-        }
-
-        if ( ip4 != null )
-        {
-            return ip4;
-        }
-        if ( ip6 != null )
-        {
-            return ip6;
-        }
-        return ip0;
     }
 }
