@@ -27,13 +27,12 @@ created empty directory somewhere on your system:
 * org.restlet.ext.jaxrs_1.0
 * org.restlet.ext.velocity_1.5
 * org.restlet.ext.wadl_1.0 (unused by latest Nexus 2.3 but in case of older fix needed)
-
 * com.noelios.restlet
 * com.noelios.restlet.ext.httpclient_3.1
 * com.noelios.restlet.ext.jetty_6.1
 * com.noelios.restlet.ext.servlet_2.5
 
-Then, ZIP the directly from it's root.
+Then, ZIP them up directly from root of "staging" directory:
 
 ```
 $ cd ~/restlet-V5-stage
@@ -46,9 +45,11 @@ And finally, deploy it into RSO's 3rd party repository, using the unpack plugin:
 $ curl -i -u cstamas -X PUT -T v5.zip https://repository.sonatype.org/service/local/repositories/third-party/content-compressed
 ```
 
-Note: this command above will ask you for RSO password! _Please notice that URL has NO trailing slash!_ You must not
+Important: _Please notice that URL has NO trailing slash!_ You must not
 add trailing slash to URL as in that case cURL will append uploaded file's name to URL and your uploaded ZIP file will 
 not be exploded in 3rd party repository root, but a level lower, in directory named "v5.zip/".
+
+Note: this command above will ask you for RSO password!
 
 Verify that deploy went fine, by browsing RSO 3rd party repository.
 
@@ -60,5 +61,5 @@ Finally, after "deploy", tag the stuff you did (use unique tags, this below is j
 ```
 
 
-Have fun!
+Have fun!  
 Sonatype Team
