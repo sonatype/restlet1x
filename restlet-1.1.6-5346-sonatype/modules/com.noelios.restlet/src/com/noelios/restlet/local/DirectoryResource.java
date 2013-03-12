@@ -361,7 +361,7 @@ public class DirectoryResource extends Resource {
         }
 
         // Log results
-        getLogger().info("Converted target URI: " + this.targetUri);
+        getLogger().fine("Converted target URI: " + this.targetUri);
         getLogger().fine("Converted base name : " + this.baseName);
     }
 
@@ -455,7 +455,7 @@ public class DirectoryResource extends Resource {
             return results;
         }
 
-        getLogger().info("Getting variants for : " + getTargetUri());
+        getLogger().fine("Getting variants for : " + getTargetUri());
 
         if ((this.directoryContent != null)
                 && (getRequest().getResourceRef() != null)
