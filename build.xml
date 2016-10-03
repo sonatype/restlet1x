@@ -1,0 +1,110 @@
+<project name="sonatype-restlet" default="sonatype-dist">
+
+  <property name="restlet-build-dir" location="restlet-1.1.6-5346-sonatype/build"/>
+  <property file="${restlet-build-dir}/build.properties" prefix="SONATYPE."/>
+  <property name="restlet-dist-dir" location="${restlet-build-dir}/dist/maven2/restlet-${SONATYPE.version-maven}"/>
+
+  <property name="sonatype-dist-dir" location="${restlet-build-dir}/sonatype-dist-dir"/>
+  <property name="sonatype-dist-zip" location="${restlet-build-dir}/sonatype-restlet-${SONATYPE.version-maven}.zip" />
+
+
+  <target name="validate-jdk">
+    <fail message="Unsupported Java version: ${ant.java.version}.
+  Make sure that the Java version is no greater than 1.7, otherwise unit tests may randomly fail due to how map ordering changed
+in Java 8">
+      <condition>
+        <not>
+          <equals arg1="${ant.java.version}" arg2="1.7"/>
+        </not>
+      </condition>
+    </fail>
+  </target>
+
+  <target name="validate-release-version">
+    <echo level="warning" message="The file ${restlet-build-dir}/build.properties has a calculated Sonatype release version of ${SONATYPE.version-maven}."/>
+  </target>
+
+  <target name="build-restlet" depends="validate-jdk">
+    <ant antfile="${restlet-build-dir}/build.xml" inheritall="false" inheritrefs="false" usenativebasedir="true">
+      <property name="maven" value="true"/>
+    </ant>
+    <!-- validate the build didn't fail? -->
+    <fail message="${restlet-dist-dir} was not created??">
+      <condition>
+        <not>
+          <available file="${restlet-dist-dir}"/>
+        </not>
+      </condition>
+    </fail>
+
+  </target>
+
+  <target name="sonatype-dist-dir">
+    <delete dir="${sonatype-dist-dir}" />
+
+    <property name="path-org.restlet" value="org/restlet/org.restlet/${SONATYPE.version-maven}" />
+    <mkdir dir="${sonatype-dist-dir}/${path-org.restlet}"/>
+    <copy todir="${sonatype-dist-dir}/${path-org.restlet}">
+      <fileset dir="${restlet-dist-dir}/${path-org.restlet}" includes="*"/>
+    </copy>
+
+    <property name="path-fileupload" value="./org/restlet/org.restlet.ext.fileupload/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-fileupload}"/>
+    <copy todir="${sonatype-dist-dir}/${path-fileupload}">
+      <fileset dir="${restlet-dist-dir}/${path-fileupload}" includes="*"/>
+    </copy>
+
+    <property name="path-jaxrs" value="./org/restlet/org.restlet.ext.jaxrs/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-jaxrs}"/>
+    <copy todir="${sonatype-dist-dir}/${path-jaxrs}">
+      <fileset dir="${restlet-dist-dir}/${path-jaxrs}" includes="*"/>
+    </copy>
+
+    <property name="path-velocity" value="./org/restlet/org.restlet.ext.velocity/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-velocity}"/>
+    <copy todir="${sonatype-dist-dir}/${path-velocity}">
+      <fileset dir="${restlet-dist-dir}/${path-velocity}" includes="*"/>
+    </copy>
+
+    <!-- (unused as of Nexus 2.3 but in case of older fix needed) -->
+    <property name="path-wadl" value="./org/restlet/org.restlet.ext.wadl/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-wadl}"/>
+    <copy todir="${sonatype-dist-dir}/${path-wadl}">
+      <fileset dir="${restlet-dist-dir}/${path-wadl}" includes="*"/>
+    </copy>
+
+    <property name="path-noelios" value="./com/noelios/restlet/com.noelios.restlet/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-noelios}"/>
+    <copy todir="${sonatype-dist-dir}/${path-noelios}">
+      <fileset dir="${restlet-dist-dir}/${path-noelios}" includes="*"/>
+    </copy>
+
+    <property name="path-noelios-httpclient" value="./com/noelios/restlet/com.noelios.restlet.ext.httpclient/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-noelios-httpclient}"/>
+    <copy todir="${sonatype-dist-dir}/${path-noelios-httpclient}">
+      <fileset dir="${restlet-dist-dir}/${path-noelios-httpclient}" includes="*"/>
+    </copy>
+
+    <property name="path-noelios-jetty" value="./com/noelios/restlet/com.noelios.restlet.ext.jetty/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-noelios-jetty}"/>
+    <copy todir="${sonatype-dist-dir}/${path-noelios-jetty}">
+      <fileset dir="${restlet-dist-dir}/${path-noelios-jetty}" includes="*"/>
+    </copy>
+
+    <property name="path-noelios-servlet" value="./com/noelios/restlet/com.noelios.restlet.ext.servlet/${SONATYPE.version-maven}/" />
+    <mkdir dir="${sonatype-dist-dir}/${path-noelios-servlet}"/>
+    <copy todir="${sonatype-dist-dir}/${path-noelios-servlet}">
+      <fileset dir="${restlet-dist-dir}/${path-noelios-servlet}" includes="*"/>
+    </copy>
+  </target>
+
+  <target name="sonatype-dist-zip">
+    <delete file="${sonatype-dist-zip}" />
+    <zip destfile="${sonatype-dist-zip}" basedir="${sonatype-dist-dir}" />
+  </target>
+
+  <target name="sonatype-dist" depends="validate-release-version,build-restlet,sonatype-dist-dir,sonatype-dist-zip">
+
+  </target>
+
+</project>
