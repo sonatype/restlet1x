@@ -35,7 +35,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
-import java.util.WeakHashMap;
 
 /**
  * Date manipulation utilities.
@@ -58,24 +57,9 @@ public final class DateUtils {
      *      >Immutable Date</a>
      */
     private static final class ImmutableDate extends Date {
-        private static final transient WeakHashMap<Date, ImmutableDate> CACHE = new WeakHashMap<Date, ImmutableDate>();
 
         // TODO Are we serializable?
         private static final long serialVersionUID = -5946186780670229206L;
-
-        /**
-         * Returns an ImmutableDate object wrapping the given date.
-         * 
-         * @param date
-         *            object to be made immutable
-         * @return an immutable date object
-         */
-        public static ImmutableDate valueOf(Date date) {
-            if (!CACHE.containsKey(date)) {
-                CACHE.put(date, new ImmutableDate(date));
-            }
-            return CACHE.get(date);
-        }
 
         /**
          * Private constructor. A factory method is provided.
@@ -83,7 +67,7 @@ public final class DateUtils {
          * @param date
          *            date to be made immutable
          */
-        private ImmutableDate(Date date) {
+        public ImmutableDate(Date date) {
             super(date.getTime());
         }
 
@@ -310,7 +294,7 @@ public final class DateUtils {
      * @return An immutable version of a given date.
      */
     public static Date unmodifiable(Date date) {
-        return (date == null) ? null : ImmutableDate.valueOf(date);
+        return (date == null) ? null : new ImmutableDate(date);
     }
 
     /**
