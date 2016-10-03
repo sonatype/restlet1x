@@ -1,65 +1,105 @@
 # Sonatype Restlet1x
 
-This repository holds an ancient Restlet 1.1.x that is patched here and there for needs of Nexus.
+This repository holds an ancient Restlet 1.1.x that is patched here and there for needs of Sonatype Nexus Repository Manager.
 
-## Releasing it
+## Build A Sonatype / Restlet Release
 
-Is manual process and is a bit labourous. Steps needed (starting from the root of repo):
+There is a script in the same directory as this README.md - `build.xml`. This script is supposed to document and make easier the building of a single zip file containing the dependencies used
+by Sonatype Nexus Repository Manager. It simply calls out to the main restlet build file to create a Maven distribution. Then the script copies only the needed dependencies in Maven 2 layout into a single zip file
+suitable to upload to a Nexus RM content-compressed endpoint.
+
+### Prepare
+
+First make sure you are running the build with Java 7, else you might get random test failures because of how HashMap ordering changed in JDK8.
+
+In other words, make sure `java -version` shows java 7 - the build.xml will also check for this. 
+
+Next, adjust the release number of the build to what you need.
 
 ```
-[cstamas@zaphod restlet1x (master)]$ cd restlet-1.1.6-5346-sonatype/build/
-[cstamas@zaphod build (master)]$ edit build.properties // set release-number to what needed
-[cstamas@zaphod build (master)]$ ant -Dmaven=true
+[cstamas@zaphod restlet1x (master)]$ edit restlet-1.1.6-5346-sonatype/build/build.properties
+```
+
+Look for the property `release-number`. Set this value to your custom release number.
+
+### Build It
+
+Run the build using ant from the same directory as this readme.
+
+```
+> ant
+Buildfile: /Users/plynch/Downloads/restlet1x/build.xml
+
+validate-release-version:
+     [echo] The file /Users/plynch/Downloads/restlet1x/restlet-1.1.6-5346-sonatype/build/build.properties has a calculated Sonatype release version of 1.1.6-SONATYPE-5348-V8.
+
+validate-jdk:
+
+build-restlet:
 ...
+
+sonatype-dist-zip:
+   [delete] Deleting: /Users/plynch/Downloads/restlet1x/restlet-1.1.6-5346-sonatype/build/sonatype-restlet-1.1.6-SONATYPE-5348-V8.zip
+      [zip] Building zip: /Users/plynch/Downloads/restlet1x/restlet-1.1.6-5346-sonatype/build/sonatype-restlet-1.1.6-SONATYPE-5348-V8.zip
+
+sonatype-dist:
+
 BUILD SUCCESSFUL
-Total time: 1 minute 30 seconds
-[cstamas@zaphod build (master)]$ cd dist/maven2/restlet-1.1.6-SONATYPE-5348-V8/
-[cstamas@zaphod build (master)]$
-```
-
-And you end up in the root of Restlet Maven2 repository. Warning: this repository contains
-all the dependencies too! We need only few (Restlet) artifacts from here, best is to "stage"
-them separately, into new repository. Stage only following artifacts, best into newly
-created empty directory somewhere on your system:
-
-* org.restlet
-* org.restlet.ext.fileupload_1.2
-* org.restlet.ext.jaxrs_1.0
-* org.restlet.ext.velocity_1.5
-* org.restlet.ext.wadl_1.0 (unused by latest Nexus 2.3 but in case of older fix needed)
-* com.noelios.restlet
-* com.noelios.restlet.ext.httpclient_3.1
-* com.noelios.restlet.ext.jetty_6.1
-* com.noelios.restlet.ext.servlet_2.5
-
-Then, ZIP them up directly from root of "staging" directory:
+Total time: 2 minutes 44 seconds
 
 ```
-$ cd ~/restlet-V5-stage
-$ zip -r v5.zip .
+
+When the build is finished, you should end up with a single zip file containing all the dependencies nexus needs:
+ 
+```
+> jar tf restlet-1.1.6-5346-sonatype/build/sonatype-restlet-1.1.6-SONATYPE-5348-V9.zip
+com/
+com/noelios/
+com/noelios/restlet/
+com/noelios/restlet/com.noelios.restlet/
+com/noelios/restlet/com.noelios.restlet.ext.httpclient/
+com/noelios/restlet/com.noelios.restlet.ext.httpclient/1.1.6-SONATYPE-5348-V9/
+com/noelios/restlet/com.noelios.restlet.ext.jetty/
+com/noelios/restlet/com.noelios.restlet.ext.jetty/1.1.6-SONATYPE-5348-V9/
+com/noelios/restlet/com.noelios.restlet.ext.servlet/
+com/noelios/restlet/com.noelios.restlet.ext.servlet/1.1.6-SONATYPE-5348-V9/
+com/noelios/restlet/com.noelios.restlet/1.1.6-SONATYPE-5348-V9/
+
+...
+org/restlet/org.restlet/1.1.6-SONATYPE-5348-V9/org.restlet-1.1.6-SONATYPE-5348-V9.jar.md5
+org/restlet/org.restlet/1.1.6-SONATYPE-5348-V9/org.restlet-1.1.6-SONATYPE-5348-V9.jar.sha1
+org/restlet/org.restlet/1.1.6-SONATYPE-5348-V9/org.restlet-1.1.6-SONATYPE-5348-V9.pom
+org/restlet/org.restlet/1.1.6-SONATYPE-5348-V9/org.restlet-1.1.6-SONATYPE-5348-V9.pom.md5
+org/restlet/org.restlet/1.1.6-SONATYPE-5348-V9/org.restlet-1.1.6-SONATYPE-5348-V9.pom.sha1
+
 ```
 
-And finally, deploy it into RSO's 3rd party repository, using the unpack plugin:
+## Deploying a public Sonatype / Restlet release
+
+Deploy the resulting zip file into RSO's 3rd party repository, using the unpack plugin - example:
 
 ```
-$ curl -i -u cstamas -X PUT -T v5.zip https://repository.sonatype.org/service/local/repositories/third-party/content-compressed
+$ curl -i -u rso_username -X PUT -T restlet-1.1.6-5346-sonatype/build/sonatype-restlet-1.1.6-SONATYPE-5348-V9.zip \
+ https://repository.sonatype.org/service/local/repositories/third-party/content-compressed
 ```
 
 Important: _Please notice that URL has NO trailing slash!_ You must not
 add trailing slash to URL as in that case cURL will append uploaded file's name to URL and your uploaded ZIP file will 
-not be exploded in 3rd party repository root, but a level lower, in directory named "v5.zip/".
-
-Note: this command above will ask you for RSO password!
+not be exploded in 3rd party repository root, but a level lower, in directory named "sonatype-restlet-1.1.6-SONATYPE-5348-V9.zip/".
 
 Verify that deploy went fine, by browsing RSO 3rd party repository.
 
 Finally, after "deploy", tag the stuff you did (use unique tags, this below is just an example!):
 
 ```
-[cstamas@zaphod build (master)]$ git tag -a -m "V5 release of Restlet 1.1.x patch" V5
+[cstamas@zaphod build (master)]$ git tag -a -m "V9 release of Restlet 1.1.x patch" V9
 [cstamas@zaphod build (master)]$ git push --tags
 ```
 
+## Testing a restlet build locally with Nexus
 
-Have fun!  
+Since we this build process does not produce snapshots, suggest deploying the zip into your local Nexus instance `thirdparty` repo, then perform a build of Nexus RM against your local Nexus public repo with an empty 
+Maven local repository.
+
+Have fun!
 Sonatype Team
